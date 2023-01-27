@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "m6-hwdb"
+version = "0.1.0"
+description = ""
+authors = ["LevytskyiS <levytskyi.sv@gmail.com>"]
+readme = "README.md"
+packages = [{include = "m6_hwdb"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+faker = "^16.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
